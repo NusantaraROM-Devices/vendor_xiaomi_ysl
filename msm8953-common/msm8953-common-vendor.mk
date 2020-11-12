@@ -931,7 +931,28 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.hardware.dms@1.0-service \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/media_codecs_dolby.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby.xml \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.bass_100:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.bass_100 \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.bass_110:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.bass_110 \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.bass_120:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.bass_120 \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.bass_130:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.bass_130 \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.bass_140:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.bass_140 \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.bass_150:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.bass_150 \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/dolby/dap-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dap-default.xml \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ddpdec.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrightdolby.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/soundfx/libatmos.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libatmos.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrightdolby.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/soundfx/libatmos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libatmos.so \
+    vendor/xiaomi/msm8953-common/proprietary/framework/dolby_dax.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_dax.jar
 
 PRODUCT_PACKAGES += \
     libbtconfigstore \
